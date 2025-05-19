@@ -5,7 +5,7 @@
 Before you begin creating an application with this `devfile` code sample, it's helpful to understand the relationship between the `devfile` and `Dockerfile` and how they contribute to your build. You can find these files at the following URLs:
 
 * [.NET60 `devfile.yaml`](https://github.com/redhat-appstudio/devfile-sample-dotnet60-dance/blob/main/devfile.yaml) 
-* [.NET60 `Dockerfile`](https://github.com/redhat-appstudio/devfile-sample-dotnet60-dance/blob/main/docker/Dockerfile)
+* [.NET60 `Dockerfile`](https://github.com/redhat-appstudio/devfile-sample-dotnet60-dance/blob/main/docker/Dockerfile) 
 
 1. The `devfile.yaml` file has an [`image-build` component](https://github.com/redhat-appstudio/devfile-sample-dotnet60-dance/blob/main/devfile.yaml#L44-L50) that points to your `Dockerfile`.
 2. The [`docker/Dockerfile`](https://github.com/redhat-appstudio/devfile-sample-dotnet60-dance/blob/main/docker/Dockerfile) contains the instructions you need to build the code sample as a container image.
